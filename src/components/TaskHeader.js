@@ -4,7 +4,7 @@ import TaskFilters from './TaskFilters'
 const TaskHeader = ({ tasks, filters, setSortedTasks }) => {
   return (
     <div className="tasks-header-container">
-      <h3>Tasks</h3>
+      <h3>Tasks List</h3>
       <TaskFilters tasks={tasks} filters={filters} setSortedTasks={setSortedTasks} />
     </div>
   )

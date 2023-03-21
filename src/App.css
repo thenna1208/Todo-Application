@@ -102,10 +102,11 @@ h1,h2,h3,h4,h5,h6, p {
   border-radius: .25rem;
   font-size: 1.5rem;
   margin-right: .5rem;
+  background-color: lightgray;
 }
 .task-input-container button {
   white-space: nowrap;
-  background-color: #007bff;
+  background-color: green;
   color: #fff;
   border: none;
   padding: .75rem 1rem;
